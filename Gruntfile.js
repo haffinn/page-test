@@ -35,7 +35,7 @@ module.exports = function (grunt) {
     yeoman: appConfig,
 
     // publish to github pages
-    publish: {
+    buildcontrol: {
       options: {
         dir: 'dist',
         commit: true,
